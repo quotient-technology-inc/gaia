@@ -3,10 +3,8 @@
 set -e
 
 apt update
-apt-get install -y cmake libunwind-dev zip libfl-dev bison ninja-build autoconf-archive libtool
-apt-get install -y curl libxml2-dev
-apt-get install -y ragel # hyperscan_project
-apt-get install -y pkg-config libgflags-dev
+apt install -y cmake libunwind-dev zip libfl-dev bison ninja-build autoconf-archive libtool
+apt install -y curl libxml2-dev
 g++ --version
 
 BVER=1.71.0
